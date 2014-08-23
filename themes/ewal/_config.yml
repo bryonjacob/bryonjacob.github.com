@@ -1,0 +1,83 @@
+# Site default meta keywords
+#keywords: site, wide, default, keywords
+
+menu:
+  Home: /
+  Archives: /archives
+
+highlight:
+  style: solarized_dark
+  enable: true
+  line_number: true
+
+widgets:
+- search
+- category
+- tagcloud
+- tag
+#- about
+#- subscribe_mailchimp
+#- noteworthy
+
+marked:
+  gfm: true
+  tables: true
+
+# For use with tagcloud or tag widgets
+# - only tags >= to tag_minium are shown
+tag_minium: 3
+
+twitter_id:
+facebook_id:
+linkedin_id:
+github_id:
+google_plus_id: 
+
+# add "share post to facebook/twitter" buttons to your post
+# you need to get a pubid from addthis to use it
+
+# addthis:
+#   enable: true
+#   pubid: ...
+#   twitter: true
+#   facebook: true
+
+# this is the about section, it apprears top right
+
+about:
+  title: About John Doe
+  content:
+  - image: http://img.forumfr.com/cafe/20041204_TopicJohnDoe.jpg
+    image_alt: John
+    description: I'm a hacker from Rumania
+  - image: http://blog.appfog.com/wp-content/uploads/2012/09/nodejs-1024x768.png
+    image_alt: Node.js
+    description: I'm particularly interested in node.js
+  - image: http://injuryfix.com/archives/ezine_images/mountain-biking_2.jpg
+    image_alt: Bike
+    description: When I'm not at a computer I like riding a bike
+
+noteworthy_title: Best blog posts
+noteworthy:
+  - url: /my/best/post1/
+    title: Switching from PHP to node.js
+  - url: /my/best/post2/
+    title: node.js performance tuning
+
+# Mailchimp:
+# 
+# to set up mailing over Mailchimp create a campaign based on RSS
+#
+# to get those ids, go to Mailchimp and go to
+# lists -> embedded -> naked
+# see copy/paste onto site:
+
+mailchimp:
+  # inside <form action="…">
+  post_action: ""
+  # inside <input type="text" name="…" tabindex="-1" value="">
+  field_name: 
+
+google_analytics: 
+
+disqus_shortname: 
